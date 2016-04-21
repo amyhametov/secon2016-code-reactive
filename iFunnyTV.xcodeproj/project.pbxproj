@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		486E13FC1175E3267E60963F /* Pods_iFunnyTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5035B63D3576C6DEEF0886BB /* Pods_iFunnyTV.framework */; };
+		4F16353A1CC4A94000CCB158 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1635391CC4A94000CCB158 /* Network.swift */; };
+		4F16353D1CC4D8D300CCB158 /* CHTCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F16353C1CC4D8D300CCB158 /* CHTCollectionViewWaterfallLayout.m */; };
+		4F9A007F1C6E0E3A00625060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9A007E1C6E0E3A00625060 /* AppDelegate.swift */; };
+		4F9A00811C6E0E3A00625060 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9A00801C6E0E3A00625060 /* ViewController.swift */; };
+		4F9A00841C6E0E3A00625060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9A00821C6E0E3A00625060 /* Main.storyboard */; };
+		4F9A00861C6E0E3A00625060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9A00851C6E0E3A00625060 /* Assets.xcassets */; };
+		4FAC08F01CC2A7A200F1E849 /* DownloadableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAC08EE1CC2A7A200F1E849 /* DownloadableImage.swift */; };
+		4FAC08F11CC2A7A200F1E849 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAC08EF1CC2A7A200F1E849 /* ImageService.swift */; };
+		4FAC08FB1CC2C1B900F1E849 /* UIImageView+DownloadableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAC08FA1CC2C1B900F1E849 /* UIImageView+DownloadableImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F1635391CC4A94000CCB158 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		4F16353B1CC4D8D300CCB158 /* CHTCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
+		4F16353C1CC4D8D300CCB158 /* CHTCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+		4F9A007B1C6E0E3A00625060 /* iFunnyTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFunnyTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9A007E1C6E0E3A00625060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F9A00801C6E0E3A00625060 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F9A00831C6E0E3A00625060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F9A00851C6E0E3A00625060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F9A00871C6E0E3A00625060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FAC08EE1CC2A7A200F1E849 /* DownloadableImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadableImage.swift; sourceTree = "<group>"; };
+		4FAC08EF1CC2A7A200F1E849 /* ImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		4FAC08FA1CC2C1B900F1E849 /* UIImageView+DownloadableImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+DownloadableImage.swift"; sourceTree = "<group>"; };
+		4FDAAB481CB79A6A00F8CE1A /* iFunnyTV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iFunnyTV-Bridging-Header.h"; sourceTree = "<group>"; };
+		5035B63D3576C6DEEF0886BB /* Pods_iFunnyTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iFunnyTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E3E515604A389080382E9F /* Pods-iFunnyTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFunnyTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-iFunnyTV/Pods-iFunnyTV.release.xcconfig"; sourceTree = "<group>"; };
+		B2C12E931631ED63043E3076 /* Pods-iFunnyTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFunnyTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iFunnyTV/Pods-iFunnyTV.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F9A00781C6E0E3A00625060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486E13FC1175E3267E60963F /* Pods_iFunnyTV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24C15EB13AEDF302E29BAC23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5035B63D3576C6DEEF0886BB /* Pods_iFunnyTV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F1635381CC4A84C00CCB158 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				4F16353B1CC4D8D300CCB158 /* CHTCollectionViewWaterfallLayout.h */,
+				4F16353C1CC4D8D300CCB158 /* CHTCollectionViewWaterfallLayout.m */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		4F9A00721C6E0E3A00625060 = {
+			isa = PBXGroup;
+			children = (
+				4F9A007D1C6E0E3A00625060 /* iFunnyTV */,
+				4F9A007C1C6E0E3A00625060 /* Products */,
+				D9383CB156FA96D614ACBA28 /* Pods */,
+				24C15EB13AEDF302E29BAC23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F9A007C1C6E0E3A00625060 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F9A007B1C6E0E3A00625060 /* iFunnyTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F9A007D1C6E0E3A00625060 /* iFunnyTV */ = {
+			isa = PBXGroup;
+			children = (
+				4F1635381CC4A84C00CCB158 /* External */,
+				4FAC08FC1CC2C91000F1E849 /* Example */,
+				4F9A007E1C6E0E3A00625060 /* AppDelegate.swift */,
+				4F1635391CC4A94000CCB158 /* Network.swift */,
+				4F9A00801C6E0E3A00625060 /* ViewController.swift */,
+				4F9A00821C6E0E3A00625060 /* Main.storyboard */,
+				4F9A00851C6E0E3A00625060 /* Assets.xcassets */,
+				4F9A00871C6E0E3A00625060 /* Info.plist */,
+				4FDAAB481CB79A6A00F8CE1A /* iFunnyTV-Bridging-Header.h */,
+			);
+			path = iFunnyTV;
+			sourceTree = "<group>";
+		};
+		4FAC08FC1CC2C91000F1E849 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				4FAC08EE1CC2A7A200F1E849 /* DownloadableImage.swift */,
+				4FAC08EF1CC2A7A200F1E849 /* ImageService.swift */,
+				4FAC08FA1CC2C1B900F1E849 /* UIImageView+DownloadableImage.swift */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+		D9383CB156FA96D614ACBA28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2C12E931631ED63043E3076 /* Pods-iFunnyTV.debug.xcconfig */,
+				91E3E515604A389080382E9F /* Pods-iFunnyTV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F9A007A1C6E0E3A00625060 /* iFunnyTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9A008A1C6E0E3A00625060 /* Build configuration list for PBXNativeTarget "iFunnyTV" */;
+			buildPhases = (
+				8203567A2E5564E97F312382 /* Check Pods Manifest.lock */,
+				4F9A00771C6E0E3A00625060 /* Sources */,
+				4F9A00781C6E0E3A00625060 /* Frameworks */,
+				4F9A00791C6E0E3A00625060 /* Resources */,
+				10B383C43D63B475EDE75A20 /* Embed Pods Frameworks */,
+				07EA5FD9D7CC9172EB33DDCD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iFunnyTV;
+			productName = iFunnyTV;
+			productReference = 4F9A007B1C6E0E3A00625060 /* iFunnyTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F9A00731C6E0E3A00625060 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Fun.co;
+				TargetAttributes = {
+					4F9A007A1C6E0E3A00625060 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2C798GJYS4;
+					};
+				};
+			};
+			buildConfigurationList = 4F9A00761C6E0E3A00625060 /* Build configuration list for PBXProject "iFunnyTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F9A00721C6E0E3A00625060;
+			productRefGroup = 4F9A007C1C6E0E3A00625060 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F9A007A1C6E0E3A00625060 /* iFunnyTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F9A00791C6E0E3A00625060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9A00861C6E0E3A00625060 /* Assets.xcassets in Resources */,
+				4F9A00841C6E0E3A00625060 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07EA5FD9D7CC9172EB33DDCD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iFunnyTV/Pods-iFunnyTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10B383C43D63B475EDE75A20 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iFunnyTV/Pods-iFunnyTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8203567A2E5564E97F312382 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F9A00771C6E0E3A00625060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAC08FB1CC2C1B900F1E849 /* UIImageView+DownloadableImage.swift in Sources */,
+				4F9A00811C6E0E3A00625060 /* ViewController.swift in Sources */,
+				4FAC08F01CC2A7A200F1E849 /* DownloadableImage.swift in Sources */,
+				4F16353D1CC4D8D300CCB158 /* CHTCollectionViewWaterfallLayout.m in Sources */,
+				4FAC08F11CC2A7A200F1E849 /* ImageService.swift in Sources */,
+				4F16353A1CC4A94000CCB158 /* Network.swift in Sources */,
+				4F9A007F1C6E0E3A00625060 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F9A00821C6E0E3A00625060 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F9A00831C6E0E3A00625060 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F9A00881C6E0E3A00625060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		4F9A00891C6E0E3A00625060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F9A008B1C6E0E3A00625060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2C12E931631ED63043E3076 /* Pods-iFunnyTV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = iFunnyTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funcorp.iFunnyTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iFunnyTV/iFunnyTV-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F9A008C1C6E0E3A00625060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E3E515604A389080382E9F /* Pods-iFunnyTV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = iFunnyTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funcorp.iFunnyTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iFunnyTV/iFunnyTV-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F9A00761C6E0E3A00625060 /* Build configuration list for PBXProject "iFunnyTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9A00881C6E0E3A00625060 /* Debug */,
+				4F9A00891C6E0E3A00625060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F9A008A1C6E0E3A00625060 /* Build configuration list for PBXNativeTarget "iFunnyTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9A008B1C6E0E3A00625060 /* Debug */,
+				4F9A008C1C6E0E3A00625060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F9A00731C6E0E3A00625060 /* Project object */;
+}
